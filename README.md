@@ -132,7 +132,7 @@ pytest tests/
 
 ## 📸 Dashboard Preview
 
-![Executive Dashboard](docs/screenshots/executive_dashboard.png)
+![Executive Dashboard](<img width="1550" height="860" alt="churn_predictions" src="https://github.com/user-attachments/assets/c8421910-f2cd-4de5-8fb1-29106afd6d2e" />)
 ![Customer Segmentation](docs/screenshots/customer_segmentation.png)
 ![Churn Prediction](docs/screenshots/churn_prediction.png)
 ![Suspicious Transactions](docs/screenshots/suspicious_transactions.png)
