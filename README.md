@@ -133,17 +133,16 @@ pytest tests/
 ## 📸 Dashboard Preview
 
 ### Executive Dashboard
-![Executive Dashboard]<img width="1531" height="744" alt="executive_dashboard" src="https://github.com/user-attachments/assets/0cc28560-031c-4aee-a1f5-28ecf66aad7d" />
+<img width="1531" height="744" alt="executive_dashboard" src="https://github.com/user-attachments/assets/0cc28560-031c-4aee-a1f5-28ecf66aad7d" />
 
 ### Customer Segmentation
-![Customer Segmentation](<img width="1535" height="729" alt="customer_segmentation" src="https://github.com/user-attachments/assets/dc47ee58-208e-4cf9-8069-318738891cd3" />)
+<img width="1535" height="729" alt="customer_segmentation" src="https://github.com/user-attachments/assets/dc47ee58-208e-4cf9-8069-318738891cd3" />
 
 ### Churn Prediction
-![Churn Prediction](<img width="1550" height="860" alt="churn_predictions" src="https://github.com/user-attachments/assets/64c04feb-8e35-4f83-b963-0d4b59ebe001" />)
+<img width="1550" height="860" alt="churn_predictions" src="https://github.com/user-attachments/assets/64c04feb-8e35-4f83-b963-0d4b59ebe001" />
 
 ### Suspicious Transactions
-![Suspicious Transactions](<img width="1524" height="900" alt="suspicious_tranctions" src="https://github.com/user-attachments/assets/ad4b9679-000c-4c85-bb36-9b4432fc1591" />
-)
+<img width="1524" height="900" alt="suspicious_tranctions" src="https://github.com/user-attachments/assets/ad4b9679-000c-4c85-bb36-9b4432fc1591" />
 
 ---
 
