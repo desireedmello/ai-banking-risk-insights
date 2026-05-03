@@ -1,21 +1,19 @@
 # AI Banking Risk & Customer Insights Platform
 
-An interactive analytics and machine learning dashboard for branch banking risk monitoring, customer churn prediction, and business decision support.
+An interactive machine learning dashboard for banking risk monitoring, customer churn prediction, suspicious transaction detection, and business decision support.
 
-## Project Motivation
+## Project Overview
 
-This project connects my front-line finance experience as a bank teller with my technical background in computer science, AI programming, and machine learning. The goal is to simulate how a financial institution could use data analytics and ML to improve customer retention, identify unusual transactions, and support branch-level decisions.
+This project uses synthetic banking data to simulate how a financial institution could use data analytics and machine learning to support customer retention, fraud/risk monitoring, and branch-level decision-making.
 
-## Features
-
-- Executive KPI dashboard
+The platform includes:
+- Synthetic banking data generation
 - Customer churn prediction model
-- Suspicious transaction detection
-- Customer segmentation visualization
-- Branch-level filtering
-- Business recommendation report
-- Synthetic banking dataset
-- Reproducible model training pipeline
+- Suspicious transaction detection using anomaly detection
+- Interactive Streamlit dashboard
+- Customer segmentation visualizations
+- Business recommendations
+- Basic unit tests for reliability
 
 ## Tech Stack
 
@@ -28,14 +26,22 @@ This project connects my front-line finance experience as a bank teller with my 
 - Joblib
 - Pytest
 
-## How To Run
+## Project Structure
 
-```bash
-git clone https://github.com/YOUR_USERNAME/banking-risk-insights.git
-cd banking-risk-insights
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-python src/data_generation.py
-python src/train_models.py
-streamlit run app/main.py
+```text
+ai-banking-risk-insights/
+├── app/
+│   └── main.py
+├── data/
+│   └── sample_banking_data.csv
+├── docs/
+├── src/
+│   ├── data_generation.py
+│   ├── preprocessing.py
+│   ├── train_models.py
+│   └── predict.py
+├── tests/
+│   └── test_preprocessing.py
+├── requirements.txt
+├── README.md
+└── LICENSE
