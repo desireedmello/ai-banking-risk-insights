@@ -22,7 +22,7 @@ To overcome this, this project uses **synthetic data generation** combined with 
 ## 📝 Medium Article
 
 👉 Read the full breakdown of this project:  
-[https://medium.com/@your-username/your-article-link](https://medium.com/@desiree2dmello/how-i-built-an-ai-banking-risk-customer-insights-platform-using-synthetic-data-end-to-end-ml-dba47130a83b?postPublishedType=repub)
+[LLink to my Medium Page](https://medium.com/@desiree2dmello/how-i-built-an-ai-banking-risk-customer-insights-platform-using-synthetic-data-end-to-end-ml-dba47130a83b?postPublishedType=repub)
 
 ---
 
