@@ -133,7 +133,7 @@ pytest tests/
 ## 📸 Dashboard Preview
 
 ### Executive Dashboard
-![Executive Dashboard](<img width="1531" height="744" alt="executive_dashboard" src="https://github.com/user-attachments/assets/0cc28560-031c-4aee-a1f5-28ecf66aad7d" />)
+![Executive Dashboard]<img width="1531" height="744" alt="executive_dashboard" src="https://github.com/user-attachments/assets/0cc28560-031c-4aee-a1f5-28ecf66aad7d" />
 
 ### Customer Segmentation
 ![Customer Segmentation](<img width="1535" height="729" alt="customer_segmentation" src="https://github.com/user-attachments/assets/dc47ee58-208e-4cf9-8069-318738891cd3" />)
