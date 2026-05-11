@@ -90,6 +90,16 @@ st.markdown(
     div[data-testid="stSlider"] [data-testid="stTickBar"] {
         background-color: var(--soft-pink);
     }
+    
+    .pink-alert {
+        background-color: rgba(255, 207, 207, 0.25);
+        border: 1px solid #ffcfcf;
+        border-radius: 8px;
+        padding: 1rem;
+        color: inherit;
+        font-weight: 500;
+        margin-top: 1rem;
+    }
     </style>
     """,
     unsafe_allow_html=True
@@ -267,12 +277,32 @@ elif section == "Churn Prediction":
         st.metric("Predicted Churn Risk", f"{probability * 100:.1f}%")
 
         if probability >= 0.6:
-            st.warning(
-                "High churn risk. Recommend proactive retention outreach.")
-        elif probability >= 0.3:
-            st.info("Moderate churn risk. Monitor engagement and product usage.")
-        else:
-            st.success("Low churn risk")
+    st.markdown(
+        """
+        <div class="pink-alert">
+            High churn risk. Recommend proactive retention outreach.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+elif probability >= 0.3:
+    st.markdown(
+        """
+        <div class="pink-alert">
+            Moderate churn risk. Monitor engagement and product usage.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+else:
+    st.markdown(
+        """
+        <div class="pink-alert">
+            Low churn risk.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 elif section == "Suspicious Transactions":
     st.subheader("Suspicious Transaction Detection")
