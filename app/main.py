@@ -277,32 +277,32 @@ elif section == "Churn Prediction":
         st.metric("Predicted Churn Risk", f"{probability * 100:.1f}%")
 
         if probability >= 0.6:
-    st.markdown(
-        """
-        <div class="pink-alert">
-            High churn risk. Recommend proactive retention outreach.
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-elif probability >= 0.3:
-    st.markdown(
-        """
-        <div class="pink-alert">
-            Moderate churn risk. Monitor engagement and product usage.
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-else:
-    st.markdown(
-        """
-        <div class="pink-alert">
-            Low churn risk.
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+            st.markdown(
+                """
+                <div class="pink-alert">
+                    High churn risk. Recommend proactive retention outreach.
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+            elif probability >= 0.3:
+                st.markdown(
+                    """
+                    <div class="pink-alert">
+                        Moderate churn risk. Monitor engagement and product usage.
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
+            else:
+                st.markdown(
+                    """
+                    <div class="pink-alert">
+                        Low churn risk.
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
 
 elif section == "Suspicious Transactions":
     st.subheader("Suspicious Transaction Detection")
