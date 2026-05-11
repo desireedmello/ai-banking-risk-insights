@@ -1,190 +1,259 @@
-## 🏦 AI Banking Risk & Customer Insights Platform
+# AI Banking Risk & Customer Insights Platform
 
-An end-to-end Machine Learning and Banking Analytics project that simulates how financial institutions can identify customer churn risk, suspicious transactions, and behavioral insights using synthetic banking data.
+An interactive machine learning dashboard built with Python and Streamlit to explore customer churn, suspicious transactions, customer segmentation, branch insights, and business recommendations using synthetic banking data.
 
-Built using Python, Scikit-learn, Streamlit, and interactive data visualizations to demonstrate practical AI applications in banking and financial technology.
+## Live Demo
 
-### Key Features
-- Customer churn prediction
-- Banking risk analysis
-- Synthetic financial data generation
-- Interactive Streamlit dashboard
-- Executive KPI visualizations
-- Machine learning model evaluation
-- Suspicious transaction detection
+[Launch the Streamlit App](https://ai-banking-risk-insights.streamlit.app)
 
----
+## Medium Articles
 
-## 📌 Project Overview
+- [Part 1: How I Built an AI Banking Risk & Customer Insights Platform Using Synthetic Data (End-to-End ML Project)![Uploading Executive_Dashboard.png…]()
+](https://medium.com/@desiree2dmello/how-i-built-an-ai-banking-risk-customer-insights-platform-using-synthetic-data-end-to-end-ml-dba47130a83b)
+- [Part 2: How I Turned My AI Banking Risk Project Into a Live Interactive ML Dashboard](ADD-YOUR-SECOND-MEDIUM-LINK-HERE)
 
-This project was designed to simulate a real-world banking analytics platform capable of analyzing customer behavior, identifying potential risks, and generating actionable insights using Machine Learning.
-
-Since real banking data is highly sensitive and protected, this platform uses synthetic data generation techniques to mimic realistic banking environments while maintaining privacy and compliance.
-
-The system demonstrates how AI can support:
-- Risk assessment
-- Customer retention strategies
-- Fraud detection workflows
-- Business intelligence reporting
-- Predictive analytics in banking
-
----
-
-## 📝 Medium Article
-
-👉 Read the full breakdown of this project:  
-[Link to Medium Blog](https://medium.com/@desiree2dmello/how-i-built-an-ai-banking-risk-customer-insights-platform-using-synthetic-data-end-to-end-ml-dba47130a83b?postPublishedType=repub)
-
----
-
-## 🧠 Key Features
-
-### 📊 Executive Dashboard
-- Displays key banking KPIs  
-- Customer count, average balance, churn rate  
-- Suspicious transaction rate  
-
-### 👥 Customer Segmentation
-- Visualizes customer value vs churn risk  
-- Uses income, balance, product usage, and engagement  
-
-### 🔮 Churn Prediction
-- Random Forest model predicts churn probability  
-- Real-time predictions via Streamlit interface  
-
-### 🚨 Suspicious Transaction Detection
-- Isolation Forest identifies unusual transactions  
-- Highlights high-risk financial activity  
-
-### 💼 Business Recommendations
-- Converts insights into actionable strategies  
-- Retention, fraud monitoring, and product optimization  
-
----
-
-## 🛠️ Tech Stack
-
-| Category | Technologies |
-|---|---|
-| Programming | Python |
-| Data Analysis | Pandas, NumPy |
-| Machine Learning | Scikit-learn |
-| Visualization | Plotly, Matplotlib |
-| Dashboard | Streamlit |
-| Model Persistence | Joblib |
-| Version Control | Git & GitHu
-
----
-
-## 📂 Project Structure
-
-
-ai-banking-risk-insights/
-├── app/
-│ └── main.py
-├── data/
-│ └── sample_banking_data.csv
-├── docs/
-│ └── screenshots/
-├── src/
-│ ├── data_generation.py
-│ ├── preprocessing.py
-│ ├── train_models.py
-│ └── predict.py
-├── tests/
-│ └── test_preprocessing.py
-├── models/
-├── requirements.txt
-├── README.md
-└── LICENSE
-
-
----
-
-## ⚙️ How to Run Locally
-
-### 1. Clone the repository
-
-git clone https://github.com/desireedmello/ai-banking-risk-insights.git
-
-cd ai-banking-risk-insights
-
-
-### 2. Create and activate virtual environment
-
-python -m venv .venv
-.venv\Scripts\activate
-
-
-### 3. Install dependencies
-
-pip install -r requirements.txt
-
-
-### 4. Generate synthetic data
-
-python src/data_generation.py
-
-
-### 5. Train models
-
-python src/train_models.py
-
-
-### 6. Run the dashboard
-
-streamlit run app/main.py
-
-
-### 7. Run tests
-
-pytest tests/
-
-
----
-
-## 📸 Dashboard Preview
+After adding screenshots to that folder, use this section:
 
 ### Executive Dashboard
-<img width="1531" height="744" alt="executive_dashboard" src="https://github.com/user-attachments/assets/0cc28560-031c-4aee-a1f5-28ecf66aad7d" />
+
+![Executive Dashboard]<img width="1720" height="799" alt="Executive_Dashboard" src="https://github.com/user-attachments/assets/72f05c32-5725-44f5-992f-0676759df974" />
 
 ### Customer Segmentation
-<img width="1535" height="729" alt="customer_segmentation" src="https://github.com/user-attachments/assets/dc47ee58-208e-4cf9-8069-318738891cd3" />
+
+![Customer Segmentation]<img width="1689" height="733" alt="Customer_Segmentation" src="https://github.com/user-attachments/assets/76d87fe7-a978-4ace-b73b-54d4a1badfb8" />
 
 ### Churn Prediction
-<img width="1550" height="860" alt="churn_predictions" src="https://github.com/user-attachments/assets/64c04feb-8e35-4f83-b963-0d4b59ebe001" />
+
+![Churn Prediction]<img width="1699" height="885" alt="image" src="https://github.com/user-attachments/assets/0e53d8fc-c119-4bd3-90ab-d6c8e4c2358d" />
 
 ### Suspicious Transactions
-<img width="1524" height="900" alt="suspicious_tranctions" src="https://github.com/user-attachments/assets/ad4b9679-000c-4c85-bb36-9b4432fc1591" />
 
----
+![Suspicious Transactions](docs/screenshots/suspicious-transactions.png)
 
-## 🧠 Key Learnings
+### Model Explainability
 
-- Building ML systems using synthetic data  
-- Designing preprocessing pipelines  
-- Combining supervised and unsupervised models  
-- Creating interactive dashboards  
-- Ensuring reliability with testing  
+![Model Explainability](docs/screenshots/model-explainability.png)
 
----
+### Business Recommendations
 
-## 🚀 Future Improvements
+![Business Recommendations](docs/screenshots/business-recommendations.png)
 
-- Deploy dashboard (Streamlit Cloud / AWS)  
-- Add model explainability (SHAP)  
-- Improve anomaly detection models  
-- Add real-time data pipelines  
+## Project Overview
 
----
+This project simulates how a banking analytics team could use machine learning and data visualization to understand customer behavior and risk.
 
-## 👩‍💻 Author
+The dashboard helps answer questions such as:
 
-**Desiree D'Mello**  
-Data Analyst | Machine Learning Enthusiast  
+- Which customers are more likely to churn?
+- Which transactions may require review?
+- Which branches show higher risk patterns?
+- How can model outputs be explained in business terms?
+- What recommendations can be made from the data?
 
----
+This project was built as a portfolio project to demonstrate data analytics, machine learning, Streamlit dashboard development, testing, deployment, and business communication.
 
-## 📄 License
+## Features
 
-MIT License
+- Executive dashboard with key banking KPIs
+- Customer segmentation view
+- Churn prediction simulator
+- Suspicious transaction detection
+- Branch-level filtering
+- Model explainability section
+- Business recommendations
+- Interactive Plotly charts
+- CSV download option
+- Soft pink dashboard theme using `#ffcfcf`
+- Streamlit Community Cloud deployment
+
+## Tech Stack
+
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Scikit-learn
+- Plotly
+- Joblib
+- Pytest
+- GitHub
+
+## Project Structure
+
+```text
+ai-banking-risk-insights/
+├── .streamlit/
+│   └── config.toml
+├── app/
+│   └── main.py
+├── data/
+│   └── sample_banking_data.csv
+├── docs/
+│   ├── data_dictionary.md
+│   ├── model_card.md
+│   └── screenshots/
+├── models/
+│   ├── anomaly_model.pkl
+│   └── churn_model.pkl
+├── src/
+│   ├── __init__.py
+│   ├── data_generation.py
+│   ├── predict.py
+│   ├── preprocessing.py
+│   └── train_models.py
+├── tests/
+│   ├── conftest.py
+│   └── test_preprocessing.py
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
+```
+
+## Dashboard Sections
+
+### Executive Dashboard
+
+Shows high-level banking metrics, including:
+
+- Total customers
+- Average account balance
+- Churn rate
+- Suspicious transaction rate
+- Account balance distribution
+- Transaction amount by branch
+
+### Customer Segmentation
+
+Visualizes customer groups using income, account balance, churn status, number of products, credit score, and digital banking usage.
+
+### Churn Prediction
+
+Allows users to enter customer information and estimate churn risk using a trained machine learning model.
+
+### Suspicious Transactions
+
+Uses an anomaly detection model to identify unusual transaction patterns and display potentially risky activity.
+
+### Model Explainability
+
+Explains important features that may influence churn and suspicious transaction risk, such as complaint count, digital banking usage, product count, credit score, tenure, account balance, and transaction amount.
+
+### Business Recommendations
+
+Translates the dashboard results into practical recommendations for customer retention, transaction review, product engagement, and branch monitoring.
+
+## Data Disclaimer
+
+This project uses synthetic banking data.
+
+The data does not represent real customers, real transactions, or any real financial institution. It is intended only for learning, portfolio demonstration, and machine learning practice.
+
+This dashboard should not be used for real banking or financial decisions.
+
+## How to Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/desireedmello/ai-banking-risk-insights.git
+cd ai-banking-risk-insights
+```
+
+Create a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+Activate the virtual environment on Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Generate the sample data if needed:
+
+```bash
+python src/data_generation.py
+```
+
+Train the models if needed:
+
+```bash
+python src/train_models.py
+```
+
+Run the Streamlit app:
+
+```bash
+streamlit run app/main.py
+```
+
+## Run Tests
+
+```bash
+pytest
+```
+
+## Deployment
+
+The app is deployed with Streamlit Community Cloud.
+
+Deployment settings:
+
+```text
+Repository: desireedmello/ai-banking-risk-insights
+Branch: main
+Main file path: app/main.py
+```
+
+## Business Impact
+
+This project demonstrates how machine learning can support banking teams by:
+
+- Identifying customers who may be at risk of churn
+- Highlighting unusual transaction behavior
+- Supporting branch-level performance review
+- Explaining model outputs in business-friendly language
+- Turning analytics into practical recommendations
+
+## Limitations
+
+- The dataset is synthetic.
+- The models are simplified for portfolio and learning purposes.
+- The dashboard does not connect to a real banking database.
+- The app does not include authentication.
+- The suspicious transaction model is not a production fraud detection system.
+- The project is not intended for real financial decision-making.
+
+## Future Improvements
+
+- Add SHAP-based model explainability
+- Add model evaluation metrics to the dashboard
+- Add confusion matrix and ROC curve visualizations
+- Improve suspicious transaction feature engineering
+- Add more advanced customer segmentation
+- Add a short demo GIF
+- Add GitHub Actions for automated testing
+- Improve mobile layout and responsiveness
+
+## Author
+
+Desiree D'Mello
+
+GitHub: [desireedmello](https://github.com/desireedmello)
+
+Medium: [Add your Medium profile link here](ADD-YOUR-MEDIUM-PROFILE-LINK-HERE)
+
+LinkedIn: [Add your LinkedIn profile link here](ADD-YOUR-LINKEDIN-PROFILE-LINK-HERE)
+
+## License
+
+This project is licensed under the MIT License.
