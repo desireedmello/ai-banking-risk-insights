@@ -22,7 +22,7 @@ To overcome this, this project uses **synthetic data generation** combined with 
 ## 📝 Medium Article
 
 👉 Read the full breakdown of this project:  
-https://medium.com/@your-username/your-article-link
+[Link to Medium Blog](https://medium.com/@desiree2dmello/how-i-built-an-ai-banking-risk-customer-insights-platform-using-synthetic-data-end-to-end-ml-dba47130a83b?postPublishedType=repub)
 
 ---
 
@@ -132,10 +132,17 @@ pytest tests/
 
 ## 📸 Dashboard Preview
 
-![Executive Dashboard](docs/screenshots/executive_dashboard.png)
-![Customer Segmentation](docs/screenshots/customer_segmentation.png)
-![Churn Prediction](docs/screenshots/churn_prediction.png)
-![Suspicious Transactions](docs/screenshots/suspicious_transactions.png)
+### Executive Dashboard
+<img width="1531" height="744" alt="executive_dashboard" src="https://github.com/user-attachments/assets/0cc28560-031c-4aee-a1f5-28ecf66aad7d" />
+
+### Customer Segmentation
+<img width="1535" height="729" alt="customer_segmentation" src="https://github.com/user-attachments/assets/dc47ee58-208e-4cf9-8069-318738891cd3" />
+
+### Churn Prediction
+<img width="1550" height="860" alt="churn_predictions" src="https://github.com/user-attachments/assets/64c04feb-8e35-4f83-b963-0d4b59ebe001" />
+
+### Suspicious Transactions
+<img width="1524" height="900" alt="suspicious_tranctions" src="https://github.com/user-attachments/assets/ad4b9679-000c-4c85-bb36-9b4432fc1591" />
 
 ---
 
