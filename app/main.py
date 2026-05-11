@@ -412,6 +412,6 @@ elif section == "About This Project":
                  ### Project Links
 
                     - GitHub: https://github.com/desireedmello/ai-banking-risk-insights
-                    - Live Streamlit app: Add your Streamlit link here
+                    - Live Streamlit app: https://ai-banking-risk-insights.streamlit.app/
                     - Medium article: https://medium.com/@desiree2dmello/how-i-built-an-ai-banking-risk-customer-insights-platform-using-synthetic-data-end-to-end-ml-dba47130a83b
                 """)
