@@ -92,7 +92,6 @@ ai-banking-risk-insights/
 ├── docs/
 │   ├── data_dictionary.md
 │   ├── model_card.md
-│   └── screenshots/
 ├── models/
 │   ├── anomaly_model.pkl
 │   └── churn_model.pkl
