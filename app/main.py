@@ -256,7 +256,8 @@ elif section == "Churn Prediction":
 
     branch_id = st.selectbox("Branch ID", sorted(df["branch_id"].unique()))
     transaction_type = st.selectbox(
-        "Transaction Type", sorted(df["transaction_type"].unique()))
+        "Transaction Type", sorted(df["transaction_type"].unique())
+    )
 
     customer = pd.DataFrame([{
         "age": age,
@@ -274,6 +275,7 @@ elif section == "Churn Prediction":
 
     if st.button("Predict Churn Risk"):
         probability = churn_model.predict_proba(customer)[0][1]
+
         st.metric("Predicted Churn Risk", f"{probability * 100:.1f}%")
 
         if probability >= 0.6:
@@ -285,24 +287,24 @@ elif section == "Churn Prediction":
                 """,
                 unsafe_allow_html=True
             )
-            elif probability >= 0.3:
-                st.markdown(
-                    """
-                    <div class="pink-alert">
-                        Moderate churn risk. Monitor engagement and product usage.
-                    </div>
-                    """,
-                    unsafe_allow_html=True
-                )
-            else:
-                st.markdown(
-                    """
-                    <div class="pink-alert">
-                        Low churn risk.
-                    </div>
-                    """,
-                    unsafe_allow_html=True
-                )
+        elif probability >= 0.3:
+            st.markdown(
+                """
+                <div class="pink-alert">
+                    Moderate churn risk. Monitor engagement and product usage.
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+        else:
+            st.markdown(
+                """
+                <div class="pink-alert">
+                    Low churn risk.
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
 
 elif section == "Suspicious Transactions":
     st.subheader("Suspicious Transaction Detection")
