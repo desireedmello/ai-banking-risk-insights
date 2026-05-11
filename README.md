@@ -16,27 +16,31 @@ After adding screenshots to that folder, use this section:
 
 ### Executive Dashboard
 
-![Executive Dashboard]<img width="1720" height="799" alt="Executive_Dashboard" src="https://github.com/user-attachments/assets/72f05c32-5725-44f5-992f-0676759df974" />
+<img width="1720" height="799" alt="Executive_Dashboard" src="https://github.com/user-attachments/assets/72f05c32-5725-44f5-992f-0676759df974" />
 
 ### Customer Segmentation
 
-![Customer Segmentation]<img width="1689" height="733" alt="Customer_Segmentation" src="https://github.com/user-attachments/assets/76d87fe7-a978-4ace-b73b-54d4a1badfb8" />
+<img width="1689" height="733" alt="Customer_Segmentation" src="https://github.com/user-attachments/assets/76d87fe7-a978-4ace-b73b-54d4a1badfb8" />
 
 ### Churn Prediction
 
-![Churn Prediction]<img width="1699" height="885" alt="image" src="https://github.com/user-attachments/assets/0e53d8fc-c119-4bd3-90ab-d6c8e4c2358d" />
+<img width="1634" height="863" alt="Churn_Prediction" src="https://github.com/user-attachments/assets/f82f1db5-dbed-4195-ae8e-a36c02d1de28" />
 
 ### Suspicious Transactions
 
-![Suspicious Transactions](docs/screenshots/suspicious-transactions.png)
+<img width="1717" height="632" alt="Suspicious_Transactions_1" src="https://github.com/user-attachments/assets/0b200b87-ee18-413d-b4fa-668a017b058e" />
+
+<img width="1781" height="481" alt="Suspicious_Transactions_2" src="https://github.com/user-attachments/assets/26521c4f-d719-4a9a-90b7-214ea71a9c25" />
 
 ### Model Explainability
 
-![Model Explainability](docs/screenshots/model-explainability.png)
+<img width="1686" height="620" alt="Model_Explainability_1" src="https://github.com/user-attachments/assets/9ca80721-e26d-4db4-a15e-324b7f4085be" />
+
+<img width="1628" height="473" alt="Model_Explainability_2" src="https://github.com/user-attachments/assets/4aaff200-a1ad-48f0-991c-9695fc4f3c99" />
 
 ### Business Recommendations
 
-![Business Recommendations](docs/screenshots/business-recommendations.png)
+<img width="1624" height="568" alt="Business_Recommendation" src="https://github.com/user-attachments/assets/b8e5a77c-7614-4da9-a294-2aa5c084ee18" />
 
 ## Project Overview
 
@@ -248,11 +252,11 @@ This project demonstrates how machine learning can support banking teams by:
 
 Desiree D'Mello
 
-GitHub: [desireedmello](https://github.com/desireedmello)
+GitHub: [GitHub](https://github.com/desireedmello)
 
-Medium: [Add your Medium profile link here](ADD-YOUR-MEDIUM-PROFILE-LINK-HERE)
+Medium: [Medium](https://medium.com/@desiree2dmello)
 
-LinkedIn: [Add your LinkedIn profile link here](ADD-YOUR-LINKEDIN-PROFILE-LINK-HERE)
+LinkedIn: [LinkedIn](https://www.linkedin.com/in/desireedmello/)
 
 ## License
 
