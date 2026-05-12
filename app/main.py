@@ -278,7 +278,7 @@ elif section == "Churn Prediction":
 
         st.metric("Predicted Churn Risk", f"{probability * 100:.1f}%")
 
-        if probability >= 0.6:
+        if probability >= 0.45:
             st.markdown(
                 """
                 <div class="pink-alert">
@@ -287,7 +287,7 @@ elif section == "Churn Prediction":
                 """,
                 unsafe_allow_html=True
             )
-        elif probability >= 0.3:
+        elif probability >= 0.25:
             st.markdown(
                 """
                 <div class="pink-alert">
@@ -437,7 +437,7 @@ elif section == "About This Project":
                 - Business recommendations
                 - Testing with pytest
                 
-                **Important note:** This project uses synthetic data. It is intended for learning, portfolio presentation, and employer rewiew. It should not be used for real banking decisions
+                **Important note:** This project uses synthetic data. It is intended for learning, portfolio presentation, and employer review. It should not be used for real banking decisions
                 """)
     
     st.markdown("""
