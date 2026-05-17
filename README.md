@@ -83,28 +83,31 @@ This project was built as a portfolio project to demonstrate data analytics, mac
 
 ```text
 ai-banking-risk-insights/
-├── .streamlit/
-│   └── config.toml
-├── app/
-│   └── main.py
-├── data/
-│   └── sample_banking_data.csv
-├── models/
-│   ├── anomaly_model.pkl
-│   └── churn_model.pkl
-├── src/
-│   ├── __init__.py
-│   ├── data_generation.py
-│   ├── predict.py
-│   ├── preprocessing.py
-│   └── train_models.py
-├── tests/
-│   ├── conftest.py
-│   └── test_preprocessing.py
-├── .gitignore
-├── LICENSE
-├── README.md
-└── requirements.txt
+|-- .streamlit/
+|   `-- config.toml
+|-- app/
+|   `-- main.py
+|-- data/
+|   `-- sample_banking_data.csv
+|-- docs/
+|   |-- data_dictionary.md
+|   `-- model_card.md
+|-- models/
+|   |-- anomaly_model.pkl
+|   `-- churn_model.pkl
+|-- src/
+|   |-- __init__.py
+|   |-- data_generation.py
+|   |-- predict.py
+|   |-- preprocessing.py
+|   `-- train_models.py
+|-- tests/
+|   |-- conftest.py
+|   `-- test_preprocessing.py
+|-- .gitignore
+|-- LICENSE
+|-- README.md
+`-- requirements.txt
 ```
 
 ## Dashboard Sections
