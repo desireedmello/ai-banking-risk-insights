@@ -9,7 +9,7 @@ An interactive machine learning dashboard built with Python and Streamlit to exp
 ## Medium Articles
 
 - [Part 1: How I Built an AI Banking Risk & Customer Insights Platform Using Synthetic Data (End-to-End ML Project)!](https://medium.com/@desiree2dmello/how-i-built-an-ai-banking-risk-customer-insights-platform-using-synthetic-data-end-to-end-ml-dba47130a83b)
-- [Part 2: How I Turned My AI Banking Risk Project Into a Live Interactive ML Dashboard]([ADD-YOUR-SECOND-MEDIUM-LINK-HERE](https://medium.com/@desiree2dmello/turning-my-ai-banking-risk-project-into-a-live-interactive-dashboard-b133d9fce3df)
+- [Part 2: How I Turned My AI Banking Risk Project Into a Live Interactive ML Dashboard](https://medium.com/@desiree2dmello/turning-my-ai-banking-risk-project-into-a-live-interactive-dashboard-b133d9fce3df)
 
 ### Executive Dashboard
 
